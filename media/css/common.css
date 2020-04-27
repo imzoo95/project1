@@ -1,0 +1,185 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum; font-size:16px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+
+.hidden{display: block; position: absolute;left: -100%; top: 0;width: 1px;height: 1px;overflow: hidden;color: #fff;}
+
+body{background: #000;}
+/*스킵네비부분*/
+
+#skipNav{position:relative;width:100%;overflow:hidden;z-index: 99}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:12px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     display:block;height:auto;padding:5px 0; background:none repeat scroll 0 0 #f2f2f2;}
+
+#wrap{width: 100%; overflow: hidden}
+
+/*  헤더공통영역  */
+#headerArea{position:fixed; z-index: 30; height: 80px;
+	        background: rgba(0,0,0,.8); left:0; top: 0;
+            width: 100%}	
+#headerArea	.headerInner{width: 96%; margin: 0 2%;
+	  overflow: hidden}
+#headerArea h1{ float: left;}
+#headerArea h1 a {
+    color: #fff;
+    text-decoration: none;
+    background: url(../images/logo.png) no-repeat;
+    display: block;
+    width: 241px;
+    height: 80px;
+    text-indent: -999px;
+}
+#headerArea #gnb{float: right;margin-top: 30px; }
+#headerArea #gnb ul{overflow: hidden}
+#headerArea #gnb ul li{float: left; margin-right: 66px;}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none;font-size: 16px;font-family: 'Roboto', sans-serif;}
+#headerArea .menuOpen{display: none}
+.far {
+    float: right;
+    margin: 22px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 푸터공통영역  */
+
+footer{
+    background: #000;
+}
+
+footer .foot_snslk{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 4% 0;
+}
+footer .foot_snslk li{
+    float: left;
+}
+footer .foot_snslk li a{
+    display: block;
+    text-align: center;
+    width: 48px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 7px;
+    font-size: 10px;
+    color: #fff;
+}
+.fab{
+    font-size: 26px;
+}
+footer address{
+    text-align: left;
+    color: #fff;
+    line-height: 1.5em;
+    font-size:.85em;
+    margin:15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer address p{
+    color: #fff;
+    font-size: .95em;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+  
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #headerArea #gnb ul li{margin-right: 50px}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea .headerInner {
+        width: auto;
+        margin: 0 auto;
+}
+    header .menuOpen {
+        display: block
+    }
+
+    header #gnb {
+        width: 100%;
+        background: #000;
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0
+    }
+    #headerArea #gnb {
+        float: none;
+        clear: both;
+        margin-top: 0;
+    }
+    header #gnb li {
+        float: none;
+        clear: both;
+        margin: 0;
+        text-align: center
+    }
+  #headerArea #gnb ul li {
+        float: none;
+        clear: both;
+        margin: 8px 0;
+        margin-right: 0;
+    }
+    #headerArea #gnb ul li a{display: block; padding: 10px 0; color: #fff; transition: all .5s}
+    #headerArea #gnb ul li a:hover{background: #fff; color: #000}
+    
+    #headerArea .menuOpen{display:block}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+

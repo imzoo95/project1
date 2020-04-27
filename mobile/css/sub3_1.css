@@ -1,0 +1,179 @@
+.visual img{
+    width: 100%;
+}
+
+
+#content{
+    margin-bottom: 50px;
+}
+
+#content .line_map{
+    text-align: right;
+    margin:20px  15px 0 0;
+    font-size: 12px;
+}
+
+#content .underline{
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 1px solid #4995cb;
+}
+
+#content h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 19px;
+    line-height: 1.5em;
+    margin: 45px 0 25px 0;
+}
+
+.prod_wrap{
+    overflow:hidden; 
+}
+
+/*상품 좌측*/
+.left_wrap{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+/*prod_box_1*/
+.prod_wrap .left_wrap ul li{
+    display: block;
+    overflow: hidden;
+}
+
+.prod_wrap .left_wrap ul li img{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.prod_wrap .left_wrap ul li span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.prod_wrap .left_wrap ul li p{
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.prod_wrap .left_wrap ul li a{
+    float: right;
+    width: 50px;
+    margin: 30px 15px 20px 0;
+    color: #b5b5ea;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*prod_box_3*/
+.prod_wrap .left_wrap ul .prod_box_3{
+    border-top: 1px solid #4995cb;
+    overflow: hidden;
+}
+/*
+
+.prod_wrap .left_wrap ul .prod_box_3 img{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.prod_wrap .left_wrap ul .prod_box_3 span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.prod_wrap .left_wrap ul .prod_box_3 p{
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.prod_wrap .left_wrap ul .prod_box_3 a{
+    float: right;
+    width: 50px;
+    margin: 30px 15px 20px 0;
+    color: #b5b5ea;
+    font-size: 12px;
+    font-weight: 300;
+}
+*/
+
+/*상품 우측*/
+.right_wrap{
+    width: 48%;
+    margin-left: 2%;
+    float: right;
+}
+
+.prod_wrap .right_wrap ul li{
+    display: block;
+    overflow: hidden;
+}
+
+.prod_wrap .right_wrap ul li img{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.prod_wrap .right_wrap ul li span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.prod_wrap .right_wrap ul li p{
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.prod_wrap .right_wrap ul li a{
+    float: right;
+    width: 50px;
+    margin: 30px 15px 20px 0;
+    color: #b5b5ea;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*prod_box_3*/
+.prod_wrap .right_wrap ul .prod_box_4{
+    border-top: 1px solid #4995cb;
+    overflow: hidden;
+}
+
+
+
+
+
+

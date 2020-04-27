@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background: #000; 
+}
+
+li{
+    list-style: none;
+}
+
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#title { }
+
+#col2{
+    width: 100%;
+/*    background: pink;*/
+}
+
+#title img{
+    display: block;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+
+.login_wrap{
+    width: 100%;
+/*    background: gray;*/
+    
+}
+
+.id_pw_input{
+    width: 270px;
+    height: 200px;
+/*    background: purple;*/
+    margin: 50px auto 0;
+}
+
+.login_input{
+    width: 240px;
+    height: 30px;
+    margin: 10px 15px;
+    
+}
+
+.login_button input{
+    width: 180px;
+    margin: 30px 45px;
+}
+/*
+.id_pw_input{
+    width: 300px;
+    height: 150px;
+    border: 1px solid blue;
+}
+
+.id_pw_input li .login_input{
+    width: 180px;
+}*/

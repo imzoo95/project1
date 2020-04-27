@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>profile</title>
+    <meta name="author" content="Matthew Howell" >
+    <meta name="description" content="fullPage continuous scrolling demo." >
+    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" >
+    <meta name="Resource-type" content="Document" >
+
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" >
+    <link rel="stylesheet" type="text/css" href="css/examples.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/examples.js"></script>
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+<body>
+<h1 class="hidden">profile</h1>
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">탁준영 Profile</a></li>
+    <li data-menuanchor="area1"><a href="#area1">PC web</a></li>
+    <li data-menuanchor="area2"><a href="#area2">Mobile</a></li>
+    <li data-menuanchor="area3"><a href="#area3">Responsive</a></li>
+    <li data-menuanchor="area4"><a href="#area4">Word Press</a></li>
+</ul>
+
+
+
+<div id="fullpage">
+   <!--첫번쨰 home 부분-->
+    <section class="section" id="section0">
+       
+        <div class="intro">
+        <h2 class="hidden">프로필</h2>
+            <article class="leftPar">
+                <img src="img/ra.aak_02.jpg" alt="">
+            </article>   
+            <article class="rightPar">
+               <div class="text_box">
+                   <p>탁준영 <span>卓晙英</span></p>
+                   <span class="bt_line">TAK JUN YEONG&ensp; +82 010.7272.4689</span>
+                   <dl>
+                       <dt>1995.05.08</dt>
+                       <dd>zhuo95@naver.com</dd>
+                       <dd>Sengbukgu, Republic of Korea</dd>
+<!--                       <dd>+82 010.7272.4689</dd>-->
+                   </dl>
+                   <dl>
+                       <dt>SKILLS</dt>
+                       <dd>HTML5, CSS3 / Java Script, jQuery / Bootstrap / CMS(word press) /   Php (include) </dd>
+                       <dt>Design Skills</dt>
+                       <dd>Photoshop, Illustration</dd>
+                       <dt>Development Web</dt>
+                       <dd>Pc web / Mobile Web / Responsive web / Bootstrap Web / Wordpress </dd>
+                   </dl>
+               </div>
+                
+            </article>   
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <!--두번째 기업형 부분-->
+    <section class="section" id="section1">
+        <h2 class="hidden">기업형</h2>
+        <ul>
+            <li class="img_wrap">
+                <img src="img/desktop.png" alt="" class="back">
+                <img src="img/pc_web.gif" alt="" class="gif">
+            </li>
+            <li class="txt_wrap">
+                <ul class="box">
+                    <li>
+                    <span>푸르밀 웹사이트 제작</span>
+                    <p>기존 웹사이트의 산만한 Interface, Image Alt<br>누락으로인한 접근성 부재를 문제점으로 삼아<br> 트렌드에 맞는 UI와 웹 표준을 지향하는 마크업으로 접근성을 고려하여 새롭게 구축하였습니다.</p>
+                    <span>제작기간</span>
+                    <p>2020. 01. 03 ~ 02. 01 (한 달)</p>
+                    <span>제작스킬</span>
+                    <p>- Adobe Photoshop, Illustrator<br>
+                    - HTML5/CSS3, Javascript, jQuery<br>- Ajax(Json), php(include)<br>- W3C 웹표준 마크업 검사, <!--웹접근성검사(K-WAH),--> 크로스브라우징 완료</p>
+                    <a href="#" class="click_site">View Web Site</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <!--세번째 모바일형 -->
+    <section class="section" id="section2">
+        <h2 class="hidden">모바일</h2>
+        <ul>
+            <li class="img_wrap">
+                <img src="img/mobile.png" alt="" class="back">
+                <img src="img/mobile.gif" alt="" class="gif">
+            </li>
+            <li class="txt_wrap">
+                <ul class="box">
+                    <li>
+                    <span>푸르밀 모바일 사이트 제작</span>
+                    <p>메인화면에서 사용자가 원하는 경험을 중심으로 퀵메뉴를 구분하고, 컨텐츠의 기능과 성격에 맞춰 위계를 재정렬한 모바일 버전입니다.</p>
+                    <span>제작기간</span>
+                    <p>2020. 02. 06 ~ 02. 23 (약 2주)</p>
+                    <span>제작스킬</span>
+                    <p>- Adobe Photoshop, Illustrator<br>- HTML5/CSS3, Javascript, jQuery<br>- CSS3(media query)와 미디어 쿼리를 이용한 기기별 해상도 서비스<br>- W3C 웹표준 마크업 검사, 웹접근성검사<br>(K-WAH), 대표 기기별 테스트 완료</p>
+                    <a href="#" class="click_site">View Mobile web Site</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+    </section>
+    
+    
+    <!--네번째 반응형 웹사이트 -->
+    <section class="section" id="section3">
+        <h2 class="hidden">반응형</h2>
+        
+        <ul>
+            <li class="img_wrap">
+                <img src="img/desktop.png" alt="" class="back">
+                <img src="img/responsive_pc.gif" alt="" class="gif">
+            </li>
+            <li class="txt_wrap three_wrap">
+                <ul class="box">
+                    <li>
+                    <span>5tardium 반응형 사이트</span>
+                    <p>세계적인 DJ들이 내한하여  주제로 한 사이트로써, 다양한 디바이스에서 폭 넓게 이용할 수 있도록 반응형 웹을 구축하였습니다.</p>
+                    <span>제작기간</span>
+                    <p>2020. 02. 29 ~ 03. 03 ( 3일 )</p>
+                    <span>제작스킬</span>
+                    <p>- Adobe Photoshop, Illustrator<br>- HTML5/CSS3, Javascript, jQuery<br>- CSS3(media query)와 미디어 쿼리를 이용한 기기별 해상도 서비스<br>- W3C 웹표준 마크업 검사, 웹접근성검사<br>(K-WAH), 대표 기기별 테스트 완료</p>
+                    <a href="#" class="click_site">View responsive web Site</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="responsive_mobile">
+            <img src="img/mobile.png" alt="" class="mob">
+            <img src="img/responsive_mobile.gif" alt="" class="main">
+        </div>
+        
+    </section>
+    <section class="section" id="section4">
+        <h2 class="hidden">워드프레스</h2>
+        
+        <ul>
+            <li class="img_wrap">
+                <img src="img/desktop.png" alt="" class="back">
+                <img src="img/wordpress.gif" alt="" class="gif">
+            </li>
+            <li class="txt_wrap three_wrap">
+                <ul class="box">
+                    <li>
+                    <span> Wordpress 사이트 제작</span>
+                    <p>드라마 "종이의 집"을 주제로 한 사이트로써, 워드프레스를 이용해 사이트 웹을 제작하였습니다.</p>
+                    <span>제작기간</span>
+                    <p>2020. 03. 07 ~ 03. 11 ( 4일 )</p>
+                    <span>제작스킬</span>
+                    <p>- Adobe Photoshop, Illustrator<br>- HTML5/CSS3, Javascript, jQuery<br>- CSS3(media query)와 미디어 쿼리를 이용한 기기별 해상도 서비스<br>- W3C 웹표준 마크업 검사, 웹접근성검사<br>(K-WAH), 대표 기기별 테스트 완료</p>
+                    <a href="#" class="click_site">View Wordpress Site</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>  
+    </section>
+    
+</div>
+
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#ada8a1', '#4995CB', '#4995CB', '#ada8a1', '#5a5252'],
+        anchors: ['firstPage', 'area1', 'area2','area3','area4'],
+        navigation:true,
+        navigationTooltips: ['Home','PC web','Mobile','Responsive','Wordpress' ],
+        showActiveTooltip: true,
+        menu: '#menu'
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+#map{
+    width: 100%;
+    height: 320px;
+}
+
+.visual{}
+
+.visual img{
+    width: 100%;
+}
+
+#content{}
+
+
+#content .title_Area h3{
+    margin: 45px 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif; 
+}
+
+#content .title_Area .line_map{
+    text-align: right;
+    margin:20px  15px 0 0;
+    font-size: 12px;
+}
+
+#content .title_Area .underline{
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 2px solid #4995cb;
+}
+
+.underline{
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 1px solid #4995cb;
+}
+
+#content address{
+    text-align: left;
+    font-weight: normal;
+    line-height: 2em;
+    font-size:.85em;
+    margin: 35px 0 30px 20px;
+    color: #333;
+}
+
+#content .transit{
+    padding: 30px 10px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#content .transit .transit_way{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0;
+}
+
+#content .transit .transit_record{
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#content .transit .transit_record span{}
+
+#content .transit .transit_record span{
+    position: relative;
+    padding-left: 15px;
+    
+}
+
+#content .transit .transit_record:nth-of-type(1) p{
+    background: #1fd41f;
+    display: inline;
+    border-radius: 3px;
+}
+
+#content .transit .transit_record:nth-of-type(2) p{
+    background: #a328d0;
+    display: inline;
+}
+
+#content .transit .transit_record span:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    display:block;
+}
+
+#content .transit .transit_record:nth-of-type(3) span:before{
+    background: blue;
+} 
+#content .transit .transit_record:nth-of-type(4) span:before{
+    background: green;
+} 
+
+
+/*
+#content .transit .transit_record span:nth-last-child(3):before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    display:block;
+}
+*/
+
+/*
+#content h4{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 26px;
+    color: #4995cb;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+*/
+/*
+  table wrap 
+.table_wrap{
+    height:  600px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid #4995cb;
+    border-bottom: 2px solid #4995cb;
+    font-size: 14px;
+
+}
+table tr th {
+background-color: blue;
+}
+
+tabel th td:nth-of-type(1){
+background-color: darkred;
+}
+
+tabel th td:nth-of-type(2){
+background-color: mediumspringgreen;
+}
+*/
+
+
+
+
+
+

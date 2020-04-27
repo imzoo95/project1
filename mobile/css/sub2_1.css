@@ -1,0 +1,132 @@
+.visual img {
+    width: 100%;
+}
+
+#content{
+    margin-bottom: 50px;
+}
+
+#content .line_map {
+    text-align: right;
+    margin: 20px 15px 0 0;
+    font-size: 12px;
+}
+
+#content h3 {
+    margin: 45px 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#content .underline {
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 2px solid #4995cb;
+}
+
+#content img{
+    width: 80%;
+    margin: 0 10% 25px 10%;
+    border-radius: 5px;
+}
+
+.company_ideo{}
+
+.company_ideo dl dt:nth-of-type(1){
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 8%;
+}
+
+.company_ideo dl dt span{
+    font-size: 11px;
+    font-weight: normal;
+    color: #3b7aa7;
+    margin-left: 5px;
+}
+
+.company_ideo dl dd{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0 0 105px 25%;
+}
+
+.company_ideo ul{
+}
+
+.company_ideo .ideology_bundle span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.company_ideo .ideology_bundle p{
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin-left: 10px;
+    
+}
+
+.company_ideo .ideology_bundle p:last-of-type{
+    margin-bottom: 70px;
+}
+
+.company_ideo .ideology_bundle:last-of-type p:last-of-type{
+    margin-bottom: 60px;
+}
+/*::after 공통 css*/
+.company_ideo .ideology_bundle span::after{
+    display: block;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    z-index: -10;
+}
+
+.company_ideo .ideology_bundle:nth-of-type(1) span::after{
+    transition: all .5s;
+    width: 70px;
+    height: 70px;
+    background: rgb(10, 120, 216,.3);
+    left: 50%;
+    top: -44px;
+    margin-left: -67px;
+}
+
+.company_ideo .ideology_bundle:nth-of-type(2) span::after{
+    width: 50px;
+    height: 50px;
+    background: rgb(222, 165, 58,.6);
+    left: 50%;
+    top: -5px;
+    margin-left: -3px;
+}
+
+.company_ideo .ideology_bundle:nth-of-type(3) span::after{
+    width: 50px;
+    height: 50px;
+    background: rgb(175, 212, 109,.7);
+    left: 50%;
+    top: -16px;
+    margin-left: -54px;
+}
+
+#content .company_ideo .bg_p{
+    width: 95%;
+    margin: 25px 2.5% 0;
+    padding-bottom: 25px;
+}
+
+
+

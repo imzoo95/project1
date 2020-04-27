@@ -1,0 +1,60 @@
+.visual img {
+    width: 100%;
+}
+
+#content{
+/*    background: rgba(130,130,130,.7);*/
+}
+
+#content .line_map {
+    text-align: right;
+    margin: 20px 15px 0 0;
+    font-size: 12px;
+}
+
+#content h3 {
+    margin: 45px 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#content .underline {
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 2px solid #4995cb;
+}
+
+/*
+#content ol{
+    background: url(../images/sub1_img/25y.png) center;
+    background-size: cover;
+}
+*/
+
+.in_process{
+/*    text-align: center;*/
+}
+
+.in_process span{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 10px 0 10px 10px;
+    color: #acdd69;
+}
+
+.in_process p{
+    display: block;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    color: #000;
+}

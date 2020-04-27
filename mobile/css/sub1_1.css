@@ -1,0 +1,92 @@
+/*sub1_1 css*/
+
+
+.visual img{
+    width: 100%;
+}
+
+#content{
+  margin-bottom: 50px;
+}
+
+#content h2{
+    margin: 45px 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif; 
+}
+
+#content .line_map{
+    text-align: right;
+    margin:20px  15px 0 0;
+    font-size: 12px;
+}
+
+#content .underline{
+    width: 40%;
+    margin: 0 30% 25px;
+    border-bottom: 2px solid #4995cb;
+}
+
+#content .text_wrap{
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#content .text_wrap img{
+    width: 100%;
+    
+    margin-bottom: 30px;
+}
+
+#content .text_wrap p:nth-of-type(1){
+    font-size: 13px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#content .text_wrap p:nth-of-type(2) span{
+    font-size: 17px;
+    line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    color: #27e627;
+}
+
+#content .text_wrap p:nth-of-type(2){
+    font-size: 13px;
+    font-weight: normal;
+    color: #333;
+}
+
+#content .text_wrap p:nth-of-type(3){
+    font-size: 13px;
+    font-weight: normal;
+    color: #333;
+}
+
+/*탭*/
+
+.tabs {position:relative;border:1px solid #ccc; width:100%;} 
+.tabs a.tab {display:block; width:33.33%;; position: absolute; text-align: center; font-size: 14px;
+   color: #fff; background: pink; padding: 10px 0} 
+.tabs a.tab1{left:0; top:0}
+.tabs a.tab2{left:33.33%; top:0}
+.tabs a.tab3{left:66.66%; top:0}
+
+.tabs .contlist { margin-top:50px; display: none;
+    padding:15px;line-height:1.5em; background:#CCF} 
+
+/*
+#content ul{
+    
+}
+
+#content ul li{
+    
+}*/
